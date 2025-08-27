@@ -3,8 +3,7 @@ Ink Masters Tattoo Shop
 
 GITHUB LINK: st10468232-eldiestshiseke/POE-PART1-WEDE
 1.	Website Proposal
-![logo](<img width="314" height="235" alt="image" src="https://github.com/user-attachments/assets/9b084587-0d72-4cf7-a25e-9b3c04be9629" />
-)
+![logo](<img width="314" height="235" alt="image" src="https://github.com/user-attachments/assets/c2a95490-8cc9-417f-be8a-a044755ed76a" /)
 
 Business Name: Ink Masters Tattoo Shop
 Type: Business Website (services + bookings)
