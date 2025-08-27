@@ -10,7 +10,9 @@ Type: Business Website (services + bookings)
 
 Objectives:
 •	Showcase tattoo and piercing services, which are core offerings in the tattoo industry (Growthink, 2025; Bplans, 2021).
+
 •	Display a gallery of past work, a common practice to attract clients and build trust (Robin Waite, 2025; SEO Design Chicago, 2024).
+
 •	Allow customers to book appointments online, a feature increasingly expected by clients for convenience (Appointy, 2022).
 •	Share artist profiles and the shop’s story (About page), which helps differentiate the business and build a personal connection with customers (Bplans, 2021; Upmetrics, 2025).
 •	Provide pricing transparency, a key factor in customer decision-making and satisfaction (TattooSpots, 2025).
