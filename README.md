@@ -83,6 +83,7 @@ Pinterest (2025).
 
 
 **3. Sitemap**
+![sitemap](blob:https://miro.com/232dc32c-83b5-48bf-b57f-1ddb7adda42c)
  Miro. 2025, Aug 27. Sitemaps. (miro, 2025)
  
 Miro. 2025, Aug 27. Sitemaps. (miro, 2025).
