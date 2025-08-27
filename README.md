@@ -155,6 +155,7 @@ Tattoo School. (2024). 8 Effective Marketing Strategies for a Cosmetic Tattoo Ar
 TattooSpots. (2025). 8 Key Metrics Every Tattoo Shop Owner Should Track. [online] Available at: TattooSpots [Accessed 27 Aug. 2025].
 
 Upmetrics. (2025). How to Write Tattoo Shop Business Plan? Template & Guide. [online] Available at: Upmetrics [Accessed 27 Aug. 2025].
+[ Click here to view the GitHub repo**](https://github.com/st10468232-eldiestshiseke/POE-PART1-WEDE)
 
 
 
