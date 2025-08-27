@@ -83,14 +83,6 @@ Pinterest (2025).
 
 
 **3. Sitemap**
-![sitemap](blob:https://miro.com/232dc32c-83b5-48bf-b57f-1ddb7adda42c)
- Miro. 2025, Aug 27. Sitemaps. (miro, 2025)
- 
-Miro. 2025, Aug 27. Sitemaps. (miro, 2025).
-
- 
-
-
 
 **4. Wireframe (Website Layout)**
 
@@ -124,11 +116,6 @@ CONTACT SECTION
 | FOOTER (Social Media, Copyright)               
 -------------------------------------------------
 
-
- ![wireframe](https://www.bing.com/images/blob?bcid=VeueVaZR-dwIDXYjrQq5ESLbEz4Q.....00)
- (miro, 2025)
- ![wireframe](blob:https://chatgpt.com/d5ca08a3-bf5c-479b-a2eb-83c481087436)
- (miro, 2025).
 
 **References**
 Bplans. (2021). Tattoo Parlor Business Plan Example. [online] Available at: Bplans [Accessed 27 Aug. 2025].
