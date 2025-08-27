@@ -1,39 +1,25 @@
- 
-Ink Masters Tattoo Shop
+**1.	Website Proposal**
 
-GITHUB LINK: st10468232-eldiestshiseke/POE-PART1-WEDE
-1.	Website Proposal
-![logo](blob:https://chat.mistral.ai/dfefebd3-40d7-4847-9cf8-412c16883a7f)
 
-Business Name: Ink Masters Tattoo Shop
+**Business Name:** Ink Masters Tattoo Shop
 Type: Business Website (services + bookings)
 
-Objectives:
+**Objectives:**
 •	Showcase tattoo and piercing services, which are core offerings in the tattoo industry (Growthink, 2025; Bplans, 2021).
-
 •	Display a gallery of past work, a common practice to attract clients and build trust (Robin Waite, 2025; SEO Design Chicago, 2024).
-
 •	Allow customers to book appointments online, a feature increasingly expected by clients for convenience (Appointy, 2022).
 •	Share artist profiles and the shop’s story (About page), which helps differentiate the business and build a personal connection with customers (Bplans, 2021; Upmetrics, 2025).
 •	Provide pricing transparency, a key factor in customer decision-making and satisfaction (TattooSpots, 2025).
 •	Improve visibility through SEO, as online presence is critical for attracting new clients (NeedMomentum, 2024).
 
 Mission: To provide high-quality, creative, and safe tattoo and piercing services in a professional and inclusive environment. 
-Vision: To become a leading tattoo studio in South Africa, known for innovation, artistry, and exceptional customer service.
-Location & Setup
-•	Ideal Location: High foot traffic areas, near universities, or in artsy neighbourhoods.
-•	Shop Layout: Reception area, private tattoo stations, sterilization room, and a display area for flash designs.
-•	Equipment: High-quality tattoo machines, sterilization tools, and comfortable furniture.
-Legal & Compliance
-•	Licenses: Register the business and obtain necessary health and safety permits.
-•	Insurance: Liability insurance to protect against potential risks.
-•	Health Regulations: Comply with local health department guidelines for tattoo shops.
+Vision: To become a leading tattoo studio in South Africa, known for innovation, artistry, 
 Marketing Strategy
 •	Branding: Create a strong brand identity with a logo, website, and social media presence.
 •	Promotions: Offer discounts for first-time clients, referral bonuses, and seasonal promotions.
 •	Partnerships: Collaborate with local artists, influencers, and businesses for cross-promotion.
 •	Online Presence: Use Instagram, Facebook, and TikTok to showcase artwork and client testimonials.
-Financial Plan
+**Financial Plan**
 •	Startup Costs: Rent, equipment, licenses, marketing, and initial inventory.
 •	Pricing: Competitive pricing based on design complexity, size, and artist experience.
 •	Revenue Streams: Tattoos, piercings, aftercare products, and merchandise (e.g., T-shirts, stickers).
@@ -41,51 +27,30 @@ Team & Roles
 •	Tattoo Artists: Skilled professionals with portfolios.
 •	Receptionist: Manages bookings, customer inquiries, and aftercare instructions.
 •	Cleaning Staff: Ensures the shop meets hygiene standards.
-Risk Management
+**Risk Management**
 •	Health Risks: Strict sterilization protocols and disposable needles, non-negotiable for client safety and legal compliance (Skinart SA, 2024; Garden Route District Municipality, 2021).
 •	Customer Satisfaction: Clear communication about design expectations and aftercare, reducing the risk of dissatisfaction (Tattoo School, 2024; Medium, 2024).
 •	Competition: Differentiate through unique art styles and exceptional service (Barber DTS, 2023; Upmetrics, 2025).
-Market Research & Competitive Analysis
-Objective: Understand the local tattoo market, identify competitors, and find gaps your shop can fill (Upmetrics, 2025; Bplans, 2021).
-Steps:
-•	Identify competitors: List tattoo shops in your target area (e.g., Johannesburg, Cape Town, or Durban) (Cognitive Market Research, 2025).
-•	Analyse their offerings: Note their pricing, styles, customer reviews, and unique selling points (TattooSpots, 2025).
-•	Identify gaps: Look for underserved styles (e.g., watercolour, blackwork, or cultural tattoos) or services (e.g., piercing, tattoo removal consultations) (Barber DTS, 2023).
-
 Financial Projections
-Startup Costs:
+**Startup Costs:**
 •	Rent: 3–6 months’ deposit + monthly rent (varies by location) (Upmetrics, 2025).
 •	Equipment: Tattoo machines, needles, ink, sterilization tools (~R50,000–R150,000) (Bplans, 2021).
 •	Licenses & Permits: Health department and business registration (~R5,000–R20,000) (Skinart SA, 2024).
 •	Marketing: Website, social media ads, flyers (~R10,000–R30,000) (Upmetrics, 2025).
-Monthly Expenses:
+**Monthly Expenses:**
 •	Rent, utilities, salaries, and supplies (Bplans, 2021).
-Revenue Estimates:
+**Revenue Estimates:**
 •	Tattoos: R500–R10,000 per session, depending on size and complexity (TattooSpots, 2025).
 •	Piercings: R200–R1,000 per piercing (Bplans, 2021).
 •	Aftercare Products: R50–R300 per item.
-Timeline:
-Milestone	Target Date
-Business Registration	[Month/Year]
-Location Secured	[Month/Year]
-Shop Setup & Equipment	[Month/Year]
-Hiring & Training	[Month/Year]
-Grand Opening	[Month/Year]
 
-Target Audience:
+**Target Audience:**
 - Young adults (18–35) interested in tattoos/piercings (Cognitive Market Research, 2025; Upmetrics, 2025).
 - Returning customers seeking professional aftercare (Tattoo School, 2024).
 - Local community in Johannesburg (or chosen location).
-Unique Selling Points
-•	Artistic Talent: Hire skilled and diverse tattoo artists with unique styles.
-•	Hygiene & Safety: Strict adherence to health and safety regulations.
-•	Customer Experience: Friendly, consultative approach to ensure client satisfaction.
-•	Community Engagement: Host events like art exhibitions, tattoo conventions, or charity drives.
-
-(Skinart SA, 2024; Garden Route District Municipality, 2021).
 
 
-Key Features:
+**Key Features:**
 - Home (intro + highlights)
 - About Us (story + artists)
 - Services (tattoos, piercings, aftercare)
@@ -95,18 +60,18 @@ Key Features:
 - Appointment Booking Form
 - Mobile Responsive Design
 
-Technology Stack:
+**Technology Stack:**
 - Frontend: HTML, CSS, JavaScript.
 (Upmetrics, 2025).
 
-2. Content Research & Sourcing
-
-Content Needed:
+**2. Content Research & Sourcing
+**
+**Content Needed:**
 - Text: Shop introduction, Artist bios, Service descriptions, Pricing details, Booking instructions
 - Images: High-quality tattoo designs, Shop interior/exterior, Artists at work
 - Other Assets: Logo, Social media links (Instagram, Facebook, TikTok)
 
-Sources for Content:
+**Sources for Content:**
 - Own tattoo photos & client permission.
 - Free image sources for placeholders:
   - Unsplash.com → Tattoos, ink, piercing images
@@ -117,7 +82,7 @@ Pinterest (2025).
 
 
 
-3. Sitemap
+**3. Sitemap**
  Miro. 2025, Aug 27. Sitemaps. (miro, 2025)
  
 Miro. 2025, Aug 27. Sitemaps. (miro, 2025).
@@ -126,7 +91,7 @@ Miro. 2025, Aug 27. Sitemaps. (miro, 2025).
 
 
 
-4. Wireframe (Website Layout)
+**4. Wireframe (Website Layout)**
 
 
 -------------------------------------------------
@@ -159,13 +124,12 @@ CONTACT SECTION
 -------------------------------------------------
 
 
-
- 
+ [wireframe](blob:https://chatgpt.com/9109c74e-5247-412a-b0f5-f773f0a7d078)
 Miro. 2025, Aug 27. Wireframes. (miro, 2025)
- 
+ [wireframe](blob:https://chatgpt.com/d5ca08a3-bf5c-479b-a2eb-83c481087436)
 Miro. 2025, Aug 27. Wireframes. (miro, 2025).
 
-References
+**References**
 Bplans. (2021). Tattoo Parlor Business Plan Example. [online] Available at: Bplans [Accessed 27 Aug. 2025].
 Cognitive Market Research. (2025). Tattoo Market will grow at a CAGR of 10.60% from 2024 to 2031. [online] Available at: Cognitive Market Research [Accessed 27 Aug. 2025].
 
