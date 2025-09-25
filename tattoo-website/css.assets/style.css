@@ -140,3 +140,20 @@ nav a:hover {
   max-width: 600px;
 }
 
+.btn {
+  padding: 12px 28px;
+  background: linear-gradient(45deg, #ff005c, #ff4d94);
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 10px #ff005c;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #ff4d94, 0 0 50px #ff005c;
+}
+
