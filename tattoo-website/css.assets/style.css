@@ -38,3 +38,26 @@ h1, h2 {
   text-shadow: 0 0 15px #ff4d94;
 }
 
+/* NAVBAR */
+header {
+  background: rgba(0,0,0,0.8);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #ff005c;
+   margin: auto;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-family: 'Rock Salt', cursive;
+  color: #ff005c;
+  text-shadow: 0 0 10px #ff005c, 0 0 20px #ff4d94;
+  
+}
+
+
