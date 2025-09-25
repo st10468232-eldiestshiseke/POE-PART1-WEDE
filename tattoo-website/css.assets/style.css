@@ -222,3 +222,21 @@ form input:focus, form textarea:focus {
   box-shadow: 0 0 10px #ff005c;
 }
 
+/* CONTACT INFO */
+.contact-info {
+  margin-top: 30px;
+  text-align: center;
+  color: #ddd;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #aaa;
+  border-top: 2px solid #ff005c;
+}
+
