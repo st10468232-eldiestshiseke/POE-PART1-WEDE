@@ -1,0 +1,40 @@
+/* Code attribution -->
+ <!--Title: IIE Modual Manual 2025-->
+ <!--author: The Independent Institut Of Education (Pty) Ltd-->
+ <!--Date: 09/02/2023-->
+ <!--Version: first Edition(2012)-->
+ <!--Available at:https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7B5E550732-60C9-4A33-8FD3-1E01B5AA005B%7D&file=WEDE5020MM.docx&action=default&mobileredirect=true-->
+ <!--Date accessed: 27/08/2025-->/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Rock+Salt&display=swap');
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0d0d0d;
+  color: #f5f5f5;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* GLOBAL CONTAINERS */
+section {
+  padding: 60px 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ff005c;
+  text-shadow: 0 0 15px #ff4d94;
+}
+

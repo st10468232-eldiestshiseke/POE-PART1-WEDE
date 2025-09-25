@@ -16,61 +16,84 @@
   <link rel="stylesheet" href="css.assets/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="logo">
+   <header class="site-header">
+    <div class="container header-inner">
       <img src="images/image.png" alt="ink Masters tattoo Shop" width="70px">
+      <a class="logo" href="index.html">Ink Masters</a>
+      <nav id="menu" class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <ul class="header-links">
-        <li><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link" href="about.html">About</a></li>
-        <li><a class="nav-link" href="services.html">Services</a></li>
-        <li><a class="nav-link" href="pricing.html">Pricing</a></li>
-        <li><a class="nav-link" href="contact.html">Contact</a></li>
-    </ul>
   </header>
 
   <main>
     <!-- Hero -->
     <section class="hero">
-      <video autoplay muted loop playsinline class="video-background" width="400px"> 
+      <video autoplay muted loop playsinline class="video-background"> 
         <source src="_videos/video1.mp4" type="video/mp4" >
       </video>
+    </section>
+      <section>
       <div class="container">
         <h1>Express Yourself Through Ink</h1>
         <p>Custom tattoos and piercings by experienced artists. Clean, safe, and professional.</p>
+        ,<div>
         <a href="contact.html#booking" class="btn">Book an Appointment</a>
+        </div>
       </div>
     </section>
 
     <!-- Services preview -->
-    <section class="section container">
-      <h2>What We Do</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>Custom Tattoos</h3>
-          <p>From minimalist to full realism—unique artwork designed for you.</p>
-        </article>
-        <article class="card">
-          <h3>Piercings</h3>
-          <p>Ear, nose, and more—done with precision and sterile tools.</p>
-        </article>
-        <article class="card">
-          <h3>Aftercare</h3>
-          <p>Clear guidance and recommended products for perfect healing.</p>
-        </article>
+    <section class="featured">
+  <h2>Featured Styles</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/blackGray.jpg" alt="Black & Grey Tattoo">
+      <div class="card-content">
+        <h3>Black & Grey</h3>
+        <p>Classic shading and depth for timeless tattoos.</p>
       </div>
-      <p class="center mt-16"><a href="services.html" class="link">Explore all services →</a></p>
-    </section>
+    </div>
+
+    <div class="card">
+      <img src="images/colored.jpg" alt="Color Tattoo">
+      <div class="card-content">
+        <h3>Colored Tattoo</h3>
+        <p>Vibrant and artistic styles that stand out.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Gallery teaser (placeholder images) -->
-    <section class="section section-dark">
-      <div class="container">
-        <h2>Recent Work</h2>
-        <div class="mission-image">
-          <img src="images/image1.jpg" alt="misssion image" class="mission-img" width="200px">
-          <img src="images/image2.jpg" alt="mission-image"  class="mission-img" width="300px"> 
+   <section class="portfolio-gallery">
+  <h2>Our Work</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/skull&Rose.jpg" alt="Tattoo Example">
+      <div class="card-content">
+        <h3>Skull & Roses</h3>
+        <p>Detailed black & grey design.</p>
       </div>
-    </section>
+    </div>
+
+    <div class="card">
+      <img src="images/vibrant.jpg" alt="Tattoo Example">
+      <div class="card-content">
+        <h3>Color Dragon</h3>
+        <p>Vibrant full-arm sleeve.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- CTA -->
     <section class="section container">

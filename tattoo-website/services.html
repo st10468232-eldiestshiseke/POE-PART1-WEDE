@@ -15,11 +15,11 @@
   <link rel="stylesheet" href="css.assets/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="logo">
+   <header class="site-header">
+    <div class="container header-inner">
       <img src="images/image.png" alt="ink Masters tattoo Shop" width="70px">
-    </div>
-      <nav id="menu" class="main-nav">
+      <a class="logo" href="index.html">Ink Masters</a>
+      <nav id="menu" class="main-nav" aria-label="Primary">
         <ul>
           <li><a class="nav-link" href="index.html">Home</a></li>
           <li><a class="nav-link" href="about.html">About</a></li>
@@ -28,31 +28,46 @@
           <li><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </nav>
+    </div>
   </header>
 
-  <main class="container section">
-    <h1>Our Services</h1>
 
-    <h2>Tattoo Styles</h2>
-    <ul class="list">
-      <li><strong>Custom Tattoos:</strong> Designed collaboratively with you.</li>
-      <li><strong>Black & Grey Realism:</strong> Portraits and lifelike shading.</li>
-      <li><strong>Colour Work:</strong> Bright, long-lasting pigments.</li>
-      <li><strong>Minimalist:</strong> Clean, subtle line work.</li>
-    </ul>
+ <section id="services" class="services">
+  <section class="hero" style="height: 50vh;">
+    <h2>Services</h2>
+  </section>
+  <div class="card-container">
+    
+    <div class="card">
+      <img src="images/customt.jpg" alt="Tattoo Design">
+      <div class="card-content">
+        <h3>Custom Tattoo Designs</h3>
+        <p>Unique and personalized tattoo designs crafted by our expert artists.</p>
+        <button class="btn">Book Now</button>
+      </div>
+    </div>
 
-    <h2>Piercings</h2>
-    <ul class="list">
-      <li>Earlobe & cartilage</li>
-      <li>Nostril & septum</li>
-      <li>Navel</li>
-    </ul>
+    <div class="card">
+      <img src="images/pierce.jpg" alt="Piercing">
+      <div class="card-content">
+        <h3>Professional Piercings</h3>
+        <p>Safe and hygienic piercings with top-quality equipment and aftercare.</p>
+        <button class="btn">Book Now</button>
+      </div>
+    </div>
 
-    <h2>Aftercare</h2>
-    <p>You’ll receive printed instructions and product recommendations to ensure perfect healing. Avoid swimming and direct sun while healing, wash gently, and never pick scabs.</p>
+    <div class="card">
+      <img src="images/removal.jpg" alt="Tattoo Removal">
+      <div class="card-content">
+        <h3>Tattoo Removal</h3>
+        <p>Advanced laser technology for safe and effective tattoo removals.</p>
+        <button class="btn">Book Now</button>
+      </div>
+    </div>
 
-    <p class="mt-24"><a href="pricing.html" class="btn">See Pricing</a></p>
-  </main>
+  </div>
+</section>
+
 
   <footer class="site-footer">
     <div class="container">

@@ -14,10 +14,11 @@
   <link rel="stylesheet" href="css.assets/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="logo">
+ <header class="site-header">
+    <div class="container header-inner">
       <img src="images/image.png" alt="ink Masters tattoo Shop" width="70px">
-    </div>
+      <a class="logo" href="index.html">Ink Masters</a>
+      <nav id="menu" class="main-nav" aria-label="Primary">
         <ul>
           <li><a class="nav-link" href="index.html">Home</a></li>
           <li><a class="nav-link" href="about.html">About</a></li>
@@ -26,35 +27,99 @@
           <li><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </nav>
+    </div>
   </header>
 
   <main class="container section">
     <h1>Pricing</h1>
 
-    <div class="price-grid">
-      <div class="price-card">
-        <h3>Small Tattoo</h3>
-        <p class="price">$50</p>
-        <p>Up to ~5 cm. Simple designs.</p>
-      </div>
-      <div class="price-card">
-        <h3>Medium Tattoo</h3>
-        <p class="price">$150</p>
-        <p>~5–15 cm. Moderate detail.</p>
-      </div>
-      <div class="price-card">
-        <h3>Large Tattoo</h3>
-        <p class="price">$300+</p>
-        <p>15 cm+. Complex artwork.</p>
-      </div>
-      <div class="price-card">
-        <h3>Piercing</h3>
-        <p class="price">$40</p>
-        <p>Ears, nose, navel. Jewellery extra.</p>
-      </div>
-    </div>
 
-    <p class="muted mt-16">* Final quotes depend on placement, detail, and session time.</p>
+  <!-- HERO -->
+  <section class="hero" style="height: 50vh;">
+    <h2>Our Pricing</h2>
+    <p>Transparent rates for every tattoo & service</p>
+  </section>
+
+  <!-- PRICING CARDS -->
+  <section class="pricing">
+    <h2>Tattoo Packages</h2>
+    <div class="card-container">
+      
+      <div class="card">
+        <div class="card-content">
+          <h3>Small Tattoo</h3>
+          <p>Perfect for initials, tiny symbols, and minimalist designs.</p>
+          <p><strong>From R500</strong></p>
+          <p>,</p>
+           <a href="contact.html#booking" class="btn">Book Now</a> 
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h3>Medium Tattoo</h3>
+          <p>Great for forearms, shoulders, or mid-sized designs.</p>
+          <p><strong>From R1200</strong></p>
+        <p>,</p>
+           <a href="contact.html#booking" class="btn">Book Now</a> 
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h3>Large Tattoo</h3>
+          <p>Full sleeves, back pieces, and large custom artworks.</p>
+          <p><strong>From R2500</strong></p>
+          <p>,</p>
+           <a href="contact.html#booking" class="btn">Book Now</a> 
+        </div>
+      </div>
+       <div class="card">
+        <div class="card-content">
+          <h3>piercings</h3>
+          <p>Safe and hygienic piercings with top-quality equipment and aftercare.</p>
+          <p><strong>From R1000</strong></p>
+         <p>,</p>
+           <a href="contact.html#booking" class="btn">Book Now</a> 
+        </div>
+      </div>
+       <div class="card">
+        <div class="card-content">
+          <h3>Tattoo Removal</h3>
+          <p>Advanced laser technology for safe and effective tattoo removals.</p>
+          <p><strong>From R1500</strong></p>
+         <p>,</p>
+           <a href="contact.html#booking" class="btn">Book Now</a> 
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- HOURLY RATES -->
+  <section class="pricing">
+    <h2>Hourly Rates</h2>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-content">
+          <h3>Standard Rate</h3>
+          <p>Applied for most tattoo styles & custom designs.</p>
+          <p><strong>R900 / hour</strong></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h3>Specialist Rate</h3>
+          <p>For portrait realism, hyper-detail, or color mastery.</p>
+          <p><strong>R1200 / hour</strong></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+    <div><p class="muted mt-16">* Final quotes depend on placement, detail, and session time.</p></div>
+    ,
     <p class="mt-24"><a href="contact.html#booking" class="btn">Request a Quote</a></p>
   </main>
 
