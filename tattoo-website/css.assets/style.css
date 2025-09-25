@@ -199,3 +199,26 @@ nav a:hover {
   transform: translateX(10px);
 }
 
+/* FORMS (Booking & Contact) */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form input, form textarea {
+  padding: 12px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background: #0d0d0d;
+  color: #eee;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #ff005c;
+  outline: none;
+  box-shadow: 0 0 10px #ff005c;
+}
+
