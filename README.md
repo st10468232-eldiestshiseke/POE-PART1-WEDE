@@ -1,11 +1,11 @@
-**Tattoo Shop Website Changelog**
+#**Tattoo Shop Website Changelog**
 
 According to the feedback received from the lecturer, I had to write a changelog explaining what I did, changed and everything that follows (Because I did not previously do any in the part 1 of the Poe).
 Here is the complete explanation of what I did in the Part 1 of the POE, and the Part 2.
 
-**PROJECT PART 1**
+##**PROJECT PART 1**
 
-**Part 1 – Project Proposal & Research**
+###**Part 1 – Project Proposal & Research**
 •	Defined project scope for a Tattoo Shop Website.
 •	Identified goals: attract clients, showcase tattoo work, list services & pricing, allow booking, and communicate shop values.
 •	Researched and sourced content:
@@ -14,7 +14,7 @@ o	Shop story, mission, and values.
 o	Pricing details.
 o	Contact + booking needs.
 ________________________________________
-**Part 2 – Sitemap Creation**
+###**Part 2 – Sitemap Creation**
 •	Built an initial sitemap.
 •	Updated sitemap to include:
 o	Home
@@ -25,12 +25,12 @@ o	Pricing (card layout for services & fees)
 o	Booking (form + add-to-cart system later)
 o	Contact (form + location map)
 ________________________________________
-**Part 3 – Wireframes**
+###**Part 3 – Wireframes**
 •	Designed wireframes for all main pages.
 •	Low-fidelity wireframes created to outline layout.
 •	Incorporated card-based design across Services, Pricing, Portfolio, and Booking for visual consistency.
 ________________________________________
-**Part 4 – Development Setup**
+###**Part 4 – Development Setup**
 Wrote HTML templates for each page:
 •	Home: hero banner, featured tattoo styles, testimonials.
 •	About: shop history, mission & values, artist bios.
@@ -43,36 +43,42 @@ Wrote HTML templates for each page:
 •	Prepared for development in Visual Studio Code.
 ________________________________________
 
-**PROJECT PART 2**
-**Part 5 – CSS Design Enhancements**
+##**PROJECT PART 2**
+###**Part 5 – CSS Design Enhancements**
 
 •	Applied dark theme with red highlights for tattoo vibe.
 •	Ensured uniform CSS across all pages.
 •	Added card components for services, pricing, portfolio, and booking sections.
 •	Responsive design implemented with viewport meta tag.
-________________________________________External CSS Stylesheet (style.css)
+________________________________________
+External CSS Stylesheet (style.css)
 **1. Default Styling Code**
 •	Applied reset styles (margin, padding, box-sizing).
 •	Defined a global font-family (Poppins for body, Rock Salt for logo/branding).
 •	Applied consistent colour scheme (dark background, red highlight).
+________________________________________
 **2. Typography Styles**
 •	Headings styled with Rock Salt for branding personality.
 •	Body text styled with Poppins for readability.
 •	Adjusted font sizes and weights for hierarchy **(h1 > h2 > h3 > p).**
 •	Responsive typography scaling applied with relative units (em, %, rem).
+________________________________________
 **3. Layout Structure**
 •	Implemented flexbox and CSS grid layouts.
 •	Cards arranged using grid (auto-fit, minmax) for flexible resizing.
 •	Navigation styled as horizontal for desktop and collapsible for mobile.
+________________________________________
 **4. Decoration and Colour**
 •	Dark theme background **(#111 / #1a1a1a)** with red accent **(#e63946).**
 •	Buttons styled with hover colour shifts **(red to darker red).**
 •	Hero sections styled with background images and overlay gradients.
 •	Borders, shadows, and rounded corners for modern tattoo shop aesthetic.
+________________________________________
 **5. Pseudo-classes**
 •	Used: hover for buttons and cards **(colour changes, scale-up effects)**.
 •	Used: active for button click feedback.
 •	Used: focus on form fields for better accessibility.
+________________________________________
 **6. Media Queries / Breakpoints**
 •	Breakpoints applied for tablet (768px) and mobile **(480px and below).**
 •	Adjustments included:
@@ -85,22 +91,26 @@ o	Card typography scaling:
 	Descriptions reduced **(p {font-size: 0.875rem;}).**
 o	Card button resizing:
 	Padding reduced and text scaled down **(padding: 0.5rem 0.625rem; font-size: 0.875rem;).**
+________________________________________
 **7. Responsive Design Adjustments**
 •	Layout: grids collapse into single-column layout on smaller screens.
 •	Typography: heading sizes reduce proportionally, ensuring readability.
 •	Navigation Menu: desktop horizontal nav converts into a mobile-friendly stacked menu.
 •	Images: portfolio/gallery images scale to fit device width without distortion.
-**Part 6 – Content Expansion**
+________________________________________
+###**Part 6 – Content Expansion**
 •	Expanded About page with a longer shop story.
 •	Extended Mission & Values section to highlight creativity, safety, inclusivity, and community.
 ________________________________________
-**Part 7 – Booking & Pricing Flow**
+###**Part 7 – Booking & Pricing Flow**
 •	On the Pricing Page, “Book Now” buttons now link directly to the Booking page section.
 •	On the Booking Page, created a structure for:
 o	Service selection cards.
 o	Cart section with services and total cost.
 o	Final booking form for customer details.
-**Part 8 – Screenshots of different pages**
+________________________________________
+
+###**Part 8 – Screenshots of different pages**
 
 
 <img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/222f7721-3ae2-4996-87ba-d71ba3ec7484" />
@@ -115,11 +125,11 @@ o	Final booking form for customer details.
 <img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/d8c6873f-4067-4799-bd36-13a55cb971ec" />
 
 <img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/f60f3d74-a6fc-4cd8-a30a-7aaedb0ff45a" />
-<img width="759" height="1400" alt="image" src="https://github.com/user-attachments/assets/e08b2cae-f493-4c53-8686-f3eb52cb94c2" />
+<img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/e08b2cae-f493-4c53-8686-f3eb52cb94c2" />
 
 
 <img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/190719d2-6cb3-4740-9e38-f52c1dbd5a7c" />
-<img width="759" height="1400" alt="image" src="https://github.com/user-attachments/assets/43b15cfb-95bd-4665-8245-74a4aec360c3" />
+<img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/43b15cfb-95bd-4665-8245-74a4aec360c3" />
 
 
 
