@@ -1,3 +1,11 @@
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
 # **Tattoo Shop Website Changelog**
 
 According to the feedback received from the lecturer, I had to write a changelog explaining what I did, changed and everything that follows (Because I did not previously do any in the part 1 of the Poe).
