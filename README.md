@@ -3,7 +3,7 @@
 According to the feedback received from the lecturer, I had to write a changelog explaining what I did, changed and everything that follows (Because I did not previously do any in the part 1 of the Poe).
 Here is the complete explanation of what I did in the Part 1 of the POE, and the Part 2.
 
-##**PROJECT PART 1**
+##PROJECT PART 1
 
 ###**Part 1 – Project Proposal & Research**
 •	Defined project scope for a Tattoo Shop Website.
