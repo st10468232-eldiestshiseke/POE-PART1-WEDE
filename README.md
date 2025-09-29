@@ -114,6 +114,12 @@ o	Final booking form for customer details.
 <img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/3c5c6663-97d6-4660-9108-4bcf8ffeb0f7" />
 <img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/d8c6873f-4067-4799-bd36-13a55cb971ec" />
 
+<img width="1722" height="2338" alt="image" src="https://github.com/user-attachments/assets/f60f3d74-a6fc-4cd8-a30a-7aaedb0ff45a" />
+
+<img width="1722" height="2745" alt="image" src="https://github.com/user-attachments/assets/190719d2-6cb3-4740-9e38-f52c1dbd5a7c" />
+
+
+
 
 
 
