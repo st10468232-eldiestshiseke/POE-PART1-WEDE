@@ -1,11 +1,11 @@
-#**Tattoo Shop Website Changelog**
+# **Tattoo Shop Website Changelog**
 
 According to the feedback received from the lecturer, I had to write a changelog explaining what I did, changed and everything that follows (Because I did not previously do any in the part 1 of the Poe).
 Here is the complete explanation of what I did in the Part 1 of the POE, and the Part 2.
 
-##PROJECT PART 1
+## **PROJECT PART 1**
 
-###**Part 1 – Project Proposal & Research**
+### **Part 1 – Project Proposal & Research**
 •	Defined project scope for a Tattoo Shop Website.
 •	Identified goals: attract clients, showcase tattoo work, list services & pricing, allow booking, and communicate shop values.
 •	Researched and sourced content:
@@ -14,7 +14,7 @@ o	Shop story, mission, and values.
 o	Pricing details.
 o	Contact + booking needs.
 ________________________________________
-###**Part 2 – Sitemap Creation**
+### **Part 2 – Sitemap Creation**
 •	Built an initial sitemap.
 •	Updated sitemap to include:
 o	Home
@@ -25,12 +25,12 @@ o	Pricing (card layout for services & fees)
 o	Booking (form + add-to-cart system later)
 o	Contact (form + location map)
 ________________________________________
-###**Part 3 – Wireframes**
+### **Part 3 – Wireframes**
 •	Designed wireframes for all main pages.
 •	Low-fidelity wireframes created to outline layout.
 •	Incorporated card-based design across Services, Pricing, Portfolio, and Booking for visual consistency.
 ________________________________________
-###**Part 4 – Development Setup**
+### **Part 4 – Development Setup**
 Wrote HTML templates for each page:
 •	Home: hero banner, featured tattoo styles, testimonials.
 •	About: shop history, mission & values, artist bios.
@@ -43,8 +43,8 @@ Wrote HTML templates for each page:
 •	Prepared for development in Visual Studio Code.
 ________________________________________
 
-##**PROJECT PART 2**
-###**Part 5 – CSS Design Enhancements**
+## **PROJECT PART 2**
+### **Part 5 – CSS Design Enhancements**
 
 •	Applied dark theme with red highlights for tattoo vibe.
 •	Ensured uniform CSS across all pages.
@@ -98,11 +98,11 @@ ________________________________________
 •	Navigation Menu: desktop horizontal nav converts into a mobile-friendly stacked menu.
 •	Images: portfolio/gallery images scale to fit device width without distortion.
 ________________________________________
-###**Part 6 – Content Expansion**
+### **Part 6 – Content Expansion**
 •	Expanded About page with a longer shop story.
 •	Extended Mission & Values section to highlight creativity, safety, inclusivity, and community.
 ________________________________________
-###**Part 7 – Booking & Pricing Flow**
+### **Part 7 – Booking & Pricing Flow**
 •	On the Pricing Page, “Book Now” buttons now link directly to the Booking page section.
 •	On the Booking Page, created a structure for:
 o	Service selection cards.
@@ -110,7 +110,7 @@ o	Cart section with services and total cost.
 o	Final booking form for customer details.
 ________________________________________
 
-###**Part 8 – Screenshots of different pages**
+### **Part 8 – Screenshots of different pages**
 
 
 <img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/222f7721-3ae2-4996-87ba-d71ba3ec7484" />
@@ -138,7 +138,7 @@ ________________________________________
 
 
 
-**References**
+### **References**
 **Google Fonts. (n.d.).** _Google Fonts: Poppins & Rock Salt._ Available at: Browse Fonts - Google Fonts (Accessed: 26 Sep 2025).
 **Nielsen Norman Group. (2020)**. _Card Design: UI Component Guidelines._ Available at: Cards: UI-Component Definition - NN/G (Accessed: 26 Sept 2025).
 **Interaction Design Foundation. (n.d.).** _Wireframe: A Complete Guide._ Available at: What is Wireframing? — updated 2025 | IxDF(Accessed: 26 Sept 2025).
