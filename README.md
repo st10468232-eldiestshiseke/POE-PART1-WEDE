@@ -101,7 +101,11 @@ o	Service selection cards.
 o	Cart section with services and total cost.
 o	Final booking form for customer details.
 **Part 8 – Screenshots of different pages**
-![**INDEX PAGE**]<img width="500" height="1702" alt="image" src="https://github.com/user-attachments/assets/222f7721-3ae2-4996-87ba-d71ba3ec7484" />
+
+
+[**INDEX PAGE**]<img width="500" height="1702" alt="image" src="https://github.com/user-attachments/assets/222f7721-3ae2-4996-87ba-d71ba3ec7484" />
+<img width="500" height="1702" alt="image" src="https://github.com/user-attachments/assets/c5e904b3-ef72-4e7b-969e-01a1803a7a89" />
+
 
 
 **References**
