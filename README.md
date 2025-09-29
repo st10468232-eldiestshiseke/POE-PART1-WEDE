@@ -103,23 +103,23 @@ o	Final booking form for customer details.
 **Part 8 – Screenshots of different pages**
 
 
-<img width="1722" height="1702" alt="image" src="https://github.com/user-attachments/assets/222f7721-3ae2-4996-87ba-d71ba3ec7484" />
+<img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/222f7721-3ae2-4996-87ba-d71ba3ec7484" />
 <img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/5af8fa48-85e3-4c4b-8a30-ab54fc5ae165" />
 
 
-<img width="1722" height="1702" alt="image" src="https://github.com/user-attachments/assets/c5e904b3-ef72-4e7b-969e-01a1803a7a89" />
+<img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/c5e904b3-ef72-4e7b-969e-01a1803a7a89" />
 <img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/fa8ee654-ab82-46ce-8e20-5f4c3a75eb64" />
 
 
 <img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/3c5c6663-97d6-4660-9108-4bcf8ffeb0f7" />
 <img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/d8c6873f-4067-4799-bd36-13a55cb971ec" />
 
-<img width="1722" height="2338" alt="image" src="https://github.com/user-attachments/assets/f60f3d74-a6fc-4cd8-a30a-7aaedb0ff45a" />
-<img width="759" height="3045" alt="image" src="https://github.com/user-attachments/assets/e08b2cae-f493-4c53-8686-f3eb52cb94c2" />
+<img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/f60f3d74-a6fc-4cd8-a30a-7aaedb0ff45a" />
+<img width="759" height="1400" alt="image" src="https://github.com/user-attachments/assets/e08b2cae-f493-4c53-8686-f3eb52cb94c2" />
 
 
-<img width="1722" height="2745" alt="image" src="https://github.com/user-attachments/assets/190719d2-6cb3-4740-9e38-f52c1dbd5a7c" />
-<img width="759" height="2978" alt="image" src="https://github.com/user-attachments/assets/43b15cfb-95bd-4665-8245-74a4aec360c3" />
+<img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/190719d2-6cb3-4740-9e38-f52c1dbd5a7c" />
+<img width="759" height="1400" alt="image" src="https://github.com/user-attachments/assets/43b15cfb-95bd-4665-8245-74a4aec360c3" />
 
 
 
