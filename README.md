@@ -103,8 +103,18 @@ o	Final booking form for customer details.
 **Part 8 – Screenshots of different pages**
 
 
-[**INDEX PAGE**]<img width="500" height="1702" alt="image" src="https://github.com/user-attachments/assets/222f7721-3ae2-4996-87ba-d71ba3ec7484" />
+<img width="500" height="1702" alt="image" src="https://github.com/user-attachments/assets/222f7721-3ae2-4996-87ba-d71ba3ec7484" />
+<img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/5af8fa48-85e3-4c4b-8a30-ab54fc5ae165" />
+
+
 <img width="500" height="1702" alt="image" src="https://github.com/user-attachments/assets/c5e904b3-ef72-4e7b-969e-01a1803a7a89" />
+<img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/fa8ee654-ab82-46ce-8e20-5f4c3a75eb64" />
+
+
+<img width="1722" height="1580" alt="image" src="https://github.com/user-attachments/assets/3c5c6663-97d6-4660-9108-4bcf8ffeb0f7" />
+<img width="400" height="1400" alt="image" src="https://github.com/user-attachments/assets/d8c6873f-4067-4799-bd36-13a55cb971ec" />
+
+
 
 
 
