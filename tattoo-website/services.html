@@ -15,59 +15,62 @@
   <link rel="stylesheet" href="css.assets/style.css" />
 </head>
 <body>
-   <header class="site-header">
+  <header class="site-header">
     <div class="container header-inner">
-      <img src="images/image.png" alt="ink Masters tattoo Shop" width="70px">
+      <img src="images/image.png" alt="Ink Masters Tattoo Shop" width="70px">
       <a class="logo" href="index.html">Ink Masters</a>
-      <nav id="menu" class="main-nav" aria-label="Primary">
+      <nav id="menu" class="main-nav">
         <ul>
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="about.html">About</a></li>
-          <li><a class="nav-link" href="services.html">Services</a></li>
-          <li><a class="nav-link" href="pricing.html">Pricing</a></li>
-          <li><a class="nav-link" href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <section id="services" class="services">
+    <section class="hero" style="height: 50vh;">
+      <h2>Services</h2>
+    </section>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/customt.jpg" alt="Tattoo Design">
+        <div class="card-content">
+          <h3>Custom Tattoo Designs</h3>
+          <p>Unique and personalized tattoo designs crafted by our expert artists.</p>
+          <button data-name="Custom Tattoo" data-price="800" class="add-to-cart">Add to cart</button>
+        </div>
+      </div>
 
- <section id="services" class="services">
-  <section class="hero" style="height: 50vh;">
-    <h2>Services</h2>
+      <div class="card">
+        <img src="images/pierce.jpg" alt="Piercing">
+        <div class="card-content">
+          <h3>Professional Piercings</h3>
+          <p>Safe and hygienic piercings with top-quality equipment and aftercare.</p>
+          <button data-name="Piercing" data-price="400" class="add-to-cart">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/removal.jpg" alt="Tattoo Removal">
+        <div class="card-content">
+          <h3>Tattoo Removal</h3>
+          <p>Advanced laser technology for safe and effective tattoo removals.</p>
+          <button data-name="Tattoo Removal" data-price="1500" class="add-to-cart">Add to cart</button>
+        </div>
+        
+      </div>
+      <div class="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p id="cart-total">Total: R0.00</p>
+       <button id="pay-button" class="btn">Pay Now</button>
+    </div>
+    </div>
   </section>
-  <div class="card-container">
-    
-    <div class="card">
-      <img src="images/customt.jpg" alt="Tattoo Design">
-      <div class="card-content">
-        <h3>Custom Tattoo Designs</h3>
-        <p>Unique and personalized tattoo designs crafted by our expert artists.</p>
-        <button class="btn">Book Now</button>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="images/pierce.jpg" alt="Piercing">
-      <div class="card-content">
-        <h3>Professional Piercings</h3>
-        <p>Safe and hygienic piercings with top-quality equipment and aftercare.</p>
-        <button class="btn">Book Now</button>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="images/removal.jpg" alt="Tattoo Removal">
-      <div class="card-content">
-        <h3>Tattoo Removal</h3>
-        <p>Advanced laser technology for safe and effective tattoo removals.</p>
-        <button class="btn">Book Now</button>
-      </div>
-    </div>
-
-  </div>
-</section>
-
 
   <footer class="site-footer">
     <div class="container">
@@ -75,6 +78,6 @@
     </div>
   </footer>
 
-  <script src="js.assets/script.js"></script>
+  <script src="js.assets/script.js"></script> 
 </body>
 </html>

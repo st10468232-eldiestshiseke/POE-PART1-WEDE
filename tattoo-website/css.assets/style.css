@@ -9,6 +9,8 @@
 
 /* RESET */
 * {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+html,body { height: 100%; }
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -254,14 +256,17 @@ footer {
 }
 
 .card {
-  background: #040327;
+  background: rgb(7, 7, 91);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0,0,0,0.6);
-  transition: transform 0.3s, box-shadow 0.3s;
-  border: 2px solid #ff005c20; /* faint neon border */
   display: flex;
   flex-direction: column;
+  border-radius:12px;
+  overflow:hidden;
+  border: 1px solid rgba(230,57,70,0.06);
+  transition: transform .24s ease, box-shadow .24s ease;
+  
 }
 
 .card img {
@@ -308,3 +313,166 @@ img, video, iframe {
   height: auto;
   display: block;
 }
+/* ===========================
+   InkHouse Tattoo — style.css
+   Complete stylesheet with responsive media queries
+   =========================== */
+
+/* Import fonts (use link in HTML instead if preferred) */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Rock+Salt&display=swap'); */
+
+/* ===== Reset & Base ===== */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html,body { height: 100%; }
+
+
+
+
+/* ===== Globals & Containers ===== */
+.container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 40px 0; }
+h1,h2,h3 { font-weight:700; margin-bottom: 16px; color: #e63946; }
+h2 { font-size: 2.4rem; text-align:center; letter-spacing:1px; }
+
+
+
+/* ===== Buttons ===== */
+.btn, .btn-book {
+  display:inline-block;
+  background: linear-gradient(45deg,#ff005c,#ff4d94);
+  color:#fff; text-decoration:none;
+  padding:12px 22px; border-radius:30px; font-weight:700;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.btn:hover, .btn-book:hover { transform:translateY(-4px); box-shadow:0 8px 30px rgba(255,77,148,0.18); }
+
+/* ===== Card component ===== */
+.card-container { display:grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap:22px; margin-top:18px; }
+
+.card img { height:200px; object-fit:cover; }
+.card-content { padding:18px; flex:1; display:flex; flex-direction:column; }
+.card h3 { color:#ffdede; margin-bottom:8px; }
+.card p { color:#ddd; font-size:0.98rem; line-height:1.5; margin-bottom:auto; }
+.card .btn { margin-top:14px; align-self:flex-start; }
+
+
+/* ===== Cart (Booking page) ===== */
+.cart { background:black; padding:18px; border-radius:8px; border:1px solid rgba(255,0,92,0.06); }
+.cart h2 { color:#e63946; margin-bottom:12px; }
+#cart-items { list-style:none; padding-left:0; }
+#cart-items li { display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px dashed rgba(255,255,255,0.03); }
+.remove-item { background:transparent; border:none; color:#ff6b88; cursor:pointer; font-weight:700; }
+
+/* ===== Footer ===== */
+footer { background:#0b0b0b; padding:26px 0; color:#bdbdbd; text-align:center; border-top:2px solid #e63946; }
+
+/* ===== Utility ===== */
+.hidden { display:none !important; }
+
+/* =========================
+   RESPONSIVE: Media Queries
+   ========================= */
+
+/* ---------- Tablet: <= 1024px ---------- */
+@media (max-width: 1024px) {
+  .hero { padding:90px 16px; }
+  .hero h1 { font-size:2.4rem; }
+  .card img { height:180px; }
+  /* Slightly fewer columns, grid auto-fit handles it */
+}
+
+/* ---------- Tablet / Large Mobile: <= 768px ---------- */
+@media (max-width: 768px) {
+  .container { padding: 20px 12px; width:94%; }
+  .hero { padding:80px 12px; }
+  .hero h1 { font-size:2rem; }
+  h2 { font-size:1.8rem; }
+
+  /* Navigation adjustment: hide desktop menu and show toggle */
+  nav ul { display:flex; position:absolute; right:16px; top:62px; background:#111; padding:14px; border-radius:10px; flex-direction:column; gap:6px; min-width:180px; box-shadow:0 8px 30px rgba(0,0,0,0.6); }
+  nav ul.show { display:flex; } /* toggle via JS adding .show */
+  .menu-toggle { display:flex; }
+
+  /* Cards stack more vertically */
+  .card img { height:160px; }
+
+  /* Typography adjustments */
+  .card h3 { font-size:1.05rem; }
+  .card p { font-size:0.95rem; }
+
+  /* Form & cart spacing */
+  form { padding:16px; }
+  .cart { padding:14px; }
+}
+
+/* ---------- Mobile: <= 480px ---------- */
+@media (max-width: 480px) {
+
+  /* ===== User-specified mobile test rules (example / debug) =====
+     Includes the exact snippet you provided for testing layout and visual checks.
+     You can remove the pink background once satisfied.
+  */
+  body {
+    background-color:dimgr; /* DEV: visual test to confirm mobile breakpoint */
+  }
+
+  /* Navigation adjustment (alternative selector ul.nav in case you use that class) */
+  ul.nav{
+    flex-direction: column; /* Stack items vertically */
+    align-items: stretch;
+    display: flex;
+    gap: 0;
+  }
+
+  /* If your nav uses ul.nav li a rules */
+  ul.nav li a,
+  nav ul li a {
+    text-align: center;
+    border-bottom: 1px solid #e0cfc1;
+    padding: 12px 8px;
+    display: block;
+  }
+
+  /* Card typography & sizing adjustments */
+  .card h3, .card h2 { font-size: 1rem; } /* smaller title on mobile (relative units) */
+  .card p { font-size: 0.875rem; } /* smaller description */
+  .card .btn, .card button {
+    padding: 0.5rem 0.625rem; /* slightly smaller button */
+    font-size: 0.875rem;
+  }
+
+  /* Make hero compact */
+  .hero { padding: 40px 12px; background-position: center top; }
+  .hero h1 { font-size: 1.6rem; }
+
+  /* Cards: single column */
+  .card-container { grid-template-columns: 1fr; gap:14px; }
+
+  /* Make images slightly shorter */
+  .card img { height:140px; }
+
+  /* Forms & inputs: comfortable touch sizes */
+  input, textarea, select { padding:12px; font-size:1rem; border-radius:10px; }
+
+  /* Cart: full width under services */
+  .cart { margin-top:18px; }
+}
+#pay-button {
+  margin-top: 1rem;
+  width: 100%;
+  background: linear-gradient(45deg, #ca0f12, #e7e7ec);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#pay-button:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 0 18px #ff005c, 0 0 45px #ff4d94;
+}
+
+
+/* ===== End of stylesheet ===== */

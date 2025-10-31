@@ -58,15 +58,15 @@
 </section>
 
         <h2>Booking / Enquiry</h2>
-        <form id="contactForm" novalidate>
+        <form id="contact-form" novalidate>
           <label for="name">Name</label>
-          <input id="name" type="text" required />
+          <input id="name" name="text" required />
 
           <label for="email">Email</label>
-          <input id="email" type="email" required />
+          <input id="email" name="email" required />
 
           <label for="service">Service</label>
-          <select id="service" required>
+          <select id="service"  name="service"required>
             <option value="">Select a service</option>
             <option value="tattoo">Tattoo</option>
             <option value="piercing">Piercing</option>
@@ -74,7 +74,7 @@
           </select>
 
           <label for="message">Message</label>
-          <textarea id="message" rows="5" placeholder="Tell us your idea…" required></textarea>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us your idea…" required></textarea>
 
           <button type="submit" class="btn">Send</button>
           <p id="formMsg" class="muted mt-8" role="status" aria-live="polite"></p>
