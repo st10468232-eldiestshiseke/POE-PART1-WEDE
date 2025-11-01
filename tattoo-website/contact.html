@@ -56,30 +56,24 @@
     </div>
   </div>
 </section>
-
         <h2>Booking / Enquiry</h2>
         <form id="contact-form" novalidate>
           <label for="name">Name</label>
-          <input id="name" name="text" required />
-
+          <input id="name" name="name" required />
           <label for="email">Email</label>
           <input id="email" name="email" required />
-
           <label for="service">Service</label>
-          <select id="service"  name="service"required>
-            <option value="">Select a service</option>
-            <option value="tattoo">Tattoo</option>
-            <option value="piercing">Piercing</option>
-            <option value="other">Other</option>
+          <select id="service" name="service" required>
+          <option value="">Select a service</option>
+          <option value="tattoo">Tattoo</option>
+          <option value="piercing">Piercing</option>
+          <option value="other">Other</option>
           </select>
-
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" placeholder="Tell us your idea…" required></textarea>
-
           <button type="submit" class="btn">Send</button>
           <p id="formMsg" class="muted mt-8" role="status" aria-live="polite"></p>
         </form>
-      </section>
       <section class="contact-info">
   <h2>Get in Touch</h2>
   <div class="card-container">

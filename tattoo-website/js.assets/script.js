@@ -1,5 +1,13 @@
-/* ========================================
-   InkHouse Tattoo — script.js
+ /*Code attribution*/
+ /*Title: IIE Modual Manual 2025*/
+ /*author: The Independent Institut Of Education (Pty) Ltd*/
+ /*Date: 09/02/2023-->*/
+ /*Version: first Edition(2012)*/
+ /*Available at:https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7B5E550732-60C9-4A33-8FD3-1E01B5AA005B%7D&file=WEDE5020MM.docx&action=default&mobileredirect=true-->
+ /*Date accessed: 27/08/2025
+ 
+ /* ========================================
+ InkHouse Tattoo — script.js
    Handles navigation toggle, cart system, and form validation
    ======================================== */
 
@@ -55,15 +63,12 @@ addToCartButtons.forEach(button => {
 
 /* ========== CONTACT FORM VALIDATION & ERROR HANDLING ========== */
 const contactForm = document.querySelector('form#contact-form');
-
 if (contactForm) {
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
-
     const nameField = contactForm.querySelector('input[name="name"]');
     const emailField = contactForm.querySelector('input[name="email"]');
     const messageField = contactForm.querySelector('textarea[name="message"]');
-
     let hasError = false;
 
     // Reset previous styles
@@ -86,14 +91,15 @@ if (contactForm) {
     }
 
     if (hasError) {
-      alert("⚠️ Please fill in all required fields correctly before submitting.");
+      alert("⚠ Please fill in all required fields correctly before submitting.");
       return;
     }
 
-    alert("✅ Thank you for contacting InkHouse Tattoo! We'll get back to you soon.");
+    alert("✅ Thank you for contacting Ink Masters Tattoo Shop! We'll get back to you soon.");
     contactForm.reset();
   });
 }
+
 
 /* ========== BOOKING FORM VALIDATION & ERROR HANDLING ========== */
 const bookingForm = document.querySelector('form#booking-form');
