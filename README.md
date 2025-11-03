@@ -3,15 +3,19 @@
 
 
 According to the feedback received from the lecturer, In the part 2 0f the POE, i did not implememnt the media query/breakpoints which i updated int this last part of the **POE** 
+
 here are some updates of what we added in this last part of the POE:
 
 **- We added Media query/breakpoint**
+
 **- We implemented Javascript**
+
 **- We updated the html code to include buttons and other stuffs**
+
 **- We uptated the css code for some pages and buttons to be more presentable**
 
-Here are the complete changelog including what we did starting from the begining up to now
-Here is the complete explanation of what I did in the Part 1 of the POE, and the Part 2.
+Here is the complete changelog including what we did starting from the begining up to now,
+the complete explanation of what I did in the Part 1 of the POE, the Part 2, and the final part of the **POE**
 
 ## **PROJECT PART 1**
 
