@@ -144,7 +144,7 @@ o	Service selection cards.
 o	Cart section with services and total cost.
 o	Final booking form for customer details.
 ________________________________________
-### **JavaScript Implementation (script.js)**
+## **Project part 3 JavaScript Implementation (script.js)**
 Main Features
 
 Responsive Navigation Toggle:
