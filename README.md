@@ -1,8 +1,21 @@
 
 # **Tattoo Shop Website Changelog**
 
-According to the feedback received from the lecturer, I had to write a changelog explaining what I did, changed and everything that follows (Because I did not previously do any in the part 1 of the Poe).
-Here is the complete explanation of what I did in the Part 1 of the POE, and the Part 2.
+
+According to the feedback received from the lecturer, In the part 2 0f the POE, i did not implememnt the media query/breakpoints which i updated int this last part of the **POE** 
+
+here are some updates of what we added in this last part of the POE:
+
+**- We added Media query/breakpoint**
+
+**- We implemented Javascript**
+
+**- We updated the html code to include buttons and other stuffs**
+
+**- We uptated the css code for some pages and buttons to be more presentable**
+
+Here is the complete changelog including what we did starting from the begining up to now,
+the complete explanation of what I did in the Part 1 of the POE, the Part 2, and the final part of the **POE**
 
 ## **PROJECT PART 1**
 
@@ -80,18 +93,39 @@ ________________________________________
 •	Used: active for button click feedback.
 •	Used: focus on form fields for better accessibility.
 ________________________________________
-**6. Media Queries / Breakpoints**
-•	Breakpoints applied for tablet (768px) and mobile **(480px and below).**
-•	Adjustments included:
-o	Background colour test **(body {background-colour: pink;})** during development to verify responsiveness.
-o	Navigation menu restructuring:
-	Navigation **(ul.nav)** stacks vertically on mobile **(flex-direction: column; align-items: stretch;)**.
-	Links are centre aligned with borders between items.
-o	Card typography scaling:
-	Titles reduced (h2 {font-size: 1rem;}).
-	Descriptions reduced **(p {font-size: 0.875rem;}).**
-o	Card button resizing:
-	Padding reduced and text scaled down **(padding: 0.5rem 0.625rem; font-size: 0.875rem;).**
+#### **6. Media Queries / Breakpoints**
+
+##### **💻 Tablet (≤1024px)*
+
+Reduced hero text size and image height.
+
+Adjusted grid layouts to fit two cards per row.
+
+##### **📱 Mobile (≤768px)*
+
+Navigation turns into a collapsible menu (.menu-toggle button toggles .show class).
+
+Adjusted form paddings and card text sizes.
+
+Ensured content stacks vertically.
+
+##### **📱 Small Mobile (≤480px)*
+
+Background changes to pink (for testing).
+
+Navigation items stack vertically.
+
+Reduced typography and button sizes for better readability.
+
+Responsive Adjustments
+
+Layout: All grid and flex layouts adapt fluidly to screen width.
+
+Typography: Scales down on smaller devices.
+
+Navigation Menu: Converts to vertical toggle menu on mobile.
+
+Images: Adjust width and height automatically within card containers.
 ________________________________________
 **7. Responsive Design Adjustments**
 •	Layout: grids collapse into single-column layout on smaller screens.
@@ -110,6 +144,175 @@ o	Service selection cards.
 o	Cart section with services and total cost.
 o	Final booking form for customer details.
 ________________________________________
+## **Project part 3**
+#### **JavaScript Implementation (script.js)**
+The JavaScript file adds interactivity, logic, and user validation throughout the entire site.
+It focuses on four main functionalities: navigation toggle, cart management, form validation, and payment flow.
+
+🔹 Navigation Menu Toggle (Responsive)
+
+Purpose: Make the navigation menu accessible on smaller devices.
+How it works:
+
+The hamburger icon (.menu-toggle) toggles the visibility of the <ul> navigation list by adding or removing the .show class.
+
+This allows the same menu to appear as a dropdown on mobile screens.
+
+Code Summary:
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
+
+---
+Result:
+✅ On mobile, clicking the menu icon shows/hides the navigation items dynamically.
+✅ On desktop, the navigation remains visible by default.
+
+🔹 Add-to-Cart System
+
+Purpose: Allow users to select tattoo or piercing services and calculate a live total.
+
+Core Features:
+
+Buttons on Services and Pricing pages include data-name and data-price attributes.
+
+When a user clicks “Book Now,” the system dynamically adds that item to a visible cart.
+
+The total price updates in real time.
+
+Each added service includes a Remove (✖) button, allowing users to modify their selection.
+
+Code Summary:
+
+function addToCart(name, price) {
+  const li = document.createElement('li');
+  li.innerHTML = `${name} - R${price.toFixed(2)} <button class="remove-item">✖</button>`;
+  cartItemsContainer.appendChild(li);
+
+  total += price;
+  updateTotal();
+
+  // Remove item event
+  li.querySelector('.remove-item').addEventListener('click', () => {
+    li.remove();
+    total -= price;
+    updateTotal();
+  });
+}
+
+
+Result:
+✅ Users can select multiple services.
+✅ The total is instantly recalculated.
+✅ Items can be easily removed from the cart.
+
+🔹 Booking Form Validation
+
+Purpose: Ensure users fill all booking fields before submission.
+Validated Fields:
+
+Name
+
+Email (must contain “@”)
+
+Service selection
+
+Date
+
+Logic:
+
+Checks for empty or invalid fields.
+
+Highlights missing fields in red.
+
+Displays an alert if validation fails.
+
+Code Summary:
+
+bookingForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (!name || !email || !service || !date) {
+    alert("⚠️ Please complete all booking details before submitting.");
+    return;
+  }
+  alert("✅ Your booking request has been received!");
+});
+
+
+Result:
+✅ Prevents submission of incomplete forms.
+✅ Gives real-time feedback to the user.
+
+🔹 Contact Form Validation
+
+Purpose: Similar to booking validation but focused on contact inquiries.
+
+Logic:
+
+Ensures name, email, and message fields are filled.
+
+Invalid inputs are outlined in red.
+
+Displays an alert on successful submission.
+
+Result:
+✅ Reduces spam or incomplete submissions.
+✅ Improves professionalism and user experience.
+
+🔹 Payment Confirmation System (Pay Now Button)
+
+Purpose: Allow users to finalize their booking with a simple simulated payment system.
+
+Logic Flow:
+
+Checks if the cart is empty.
+
+Prompts the user to confirm payment amount.
+
+Displays success message and clears the cart after confirmation.
+
+Code Summary:
+
+payButton.addEventListener('click', () => {
+  if (total === 0) {
+    alert("🛒 Your cart is empty! Please add a service before paying.");
+    return;
+  }
+
+  const confirmPayment = confirm(` You are about to pay R${total.toFixed(2)}. Proceed?`);
+  if (confirmPayment) {
+    alert("✅ Payment successful! Thank you for booking with InkHouse Tattoo.");
+    cartItemsContainer.innerHTML = '';
+    total = 0;
+    updateTotal();
+  }
+});
+
+
+Result:
+✅ Prevents accidental payment on empty cart.
+✅ Confirms purchase total before finalizing.
+✅ Clears the cart and resets totals after payment.
+
+🔹 Smooth Scrolling Enhancement
+
+Purpose: Enhance navigation for anchor links (e.g., “Book Now” buttons).
+Logic:
+
+Captures clicks on internal page links (href="#section-id") and smoothly scrolls to the target section.
+
+Result:
+✅ Improves UX by reducing sudden page jumps.
+
+Overall Impact
+
+✔ Full user interaction control through JS (forms, cart, and payment).
+✔ Improved accessibility and mobile usability.
+✔ Enhanced professionalism via alerts, validation, and live updates.
 
 ### **Part 8 – Screenshots of different pages**
 
