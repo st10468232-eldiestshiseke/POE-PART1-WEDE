@@ -144,8 +144,8 @@ o	Service selection cards.
 o	Cart section with services and total cost.
 o	Final booking form for customer details.
 ________________________________________
-## **Project part 3**
-#### **JavaScript Implementation (script.js)**
+## **PROJECT PART3**
+### **JavaScript Implementation (script.js)**
 
 #### 2.1 Interactive Elements
 
@@ -172,6 +172,7 @@ Implemented a “Pay Now” confirmation system that simulates transaction handl
 Built a DOM-based validation system for all form submissions to ensure proper user input before processing.
 
 Planned future integration of search and filter functionality for services and portfolio items (for scalability).
+
 ---
 **The JavaScript file adds interactivity, logic, and user validation throughout the entire site.
 It focuses on four main functionalities: navigation toggle, cart management, form validation, and payment flow.*
