@@ -167,7 +167,7 @@ menuToggle.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
 
-
+---
 Result:
 ✅ On mobile, clicking the menu icon shows/hides the navigation items dynamically.
 ✅ On desktop, the navigation remains visible by default.
