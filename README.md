@@ -144,27 +144,175 @@ o	Service selection cards.
 o	Cart section with services and total cost.
 o	Final booking form for customer details.
 ________________________________________
-## **Project part 3 JavaScript Implementation (script.js)**
-Main Features
+## **Project part 3**
+#### **JavaScript Implementation (script.js)**
+The JavaScript file adds interactivity, logic, and user validation throughout the entire site.
+It focuses on four main functionalities: navigation toggle, cart management, form validation, and payment flow.
 
-Responsive Navigation Toggle:
-Toggles the .show class for the mobile menu.
+🔹 Navigation Menu Toggle (Responsive)
 
-Cart System:
+Purpose: Make the navigation menu accessible on smaller devices.
+How it works:
 
-“Book Now” buttons use data-name and data-price attributes.
+The hamburger icon (.menu-toggle) toggles the visibility of the <ul> navigation list by adding or removing the .show class.
 
-Adds selected services to cart with a remove option.
+This allows the same menu to appear as a dropdown on mobile screens.
 
-Updates total price in real time.
+Code Summary:
 
-Form Validation:
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('nav ul');
 
-Contact and Booking forms now validate name, email, message/service/date fields.
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
 
-Red borders highlight missing fields.
 
-Alerts guide users to fill all required data.
+Result:
+✅ On mobile, clicking the menu icon shows/hides the navigation items dynamically.
+✅ On desktop, the navigation remains visible by default.
+
+🔹 Add-to-Cart System
+
+Purpose: Allow users to select tattoo or piercing services and calculate a live total.
+
+Core Features:
+
+Buttons on Services and Pricing pages include data-name and data-price attributes.
+
+When a user clicks “Book Now,” the system dynamically adds that item to a visible cart.
+
+The total price updates in real time.
+
+Each added service includes a Remove (✖) button, allowing users to modify their selection.
+
+Code Summary:
+
+function addToCart(name, price) {
+  const li = document.createElement('li');
+  li.innerHTML = `${name} - R${price.toFixed(2)} <button class="remove-item">✖</button>`;
+  cartItemsContainer.appendChild(li);
+
+  total += price;
+  updateTotal();
+
+  // Remove item event
+  li.querySelector('.remove-item').addEventListener('click', () => {
+    li.remove();
+    total -= price;
+    updateTotal();
+  });
+}
+
+
+Result:
+✅ Users can select multiple services.
+✅ The total is instantly recalculated.
+✅ Items can be easily removed from the cart.
+
+🔹 Booking Form Validation
+
+Purpose: Ensure users fill all booking fields before submission.
+Validated Fields:
+
+Name
+
+Email (must contain “@”)
+
+Service selection
+
+Date
+
+Logic:
+
+Checks for empty or invalid fields.
+
+Highlights missing fields in red.
+
+Displays an alert if validation fails.
+
+Code Summary:
+
+bookingForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (!name || !email || !service || !date) {
+    alert("⚠️ Please complete all booking details before submitting.");
+    return;
+  }
+  alert("✅ Your booking request has been received!");
+});
+
+
+Result:
+✅ Prevents submission of incomplete forms.
+✅ Gives real-time feedback to the user.
+
+🔹 Contact Form Validation
+
+Purpose: Similar to booking validation but focused on contact inquiries.
+
+Logic:
+
+Ensures name, email, and message fields are filled.
+
+Invalid inputs are outlined in red.
+
+Displays an alert on successful submission.
+
+Result:
+✅ Reduces spam or incomplete submissions.
+✅ Improves professionalism and user experience.
+
+🔹 Payment Confirmation System (Pay Now Button)
+
+Purpose: Allow users to finalize their booking with a simple simulated payment system.
+
+Logic Flow:
+
+Checks if the cart is empty.
+
+Prompts the user to confirm payment amount.
+
+Displays success message and clears the cart after confirmation.
+
+Code Summary:
+
+payButton.addEventListener('click', () => {
+  if (total === 0) {
+    alert("🛒 Your cart is empty! Please add a service before paying.");
+    return;
+  }
+
+  const confirmPayment = confirm(` You are about to pay R${total.toFixed(2)}. Proceed?`);
+  if (confirmPayment) {
+    alert("✅ Payment successful! Thank you for booking with InkHouse Tattoo.");
+    cartItemsContainer.innerHTML = '';
+    total = 0;
+    updateTotal();
+  }
+});
+
+
+Result:
+✅ Prevents accidental payment on empty cart.
+✅ Confirms purchase total before finalizing.
+✅ Clears the cart and resets totals after payment.
+
+🔹 Smooth Scrolling Enhancement
+
+Purpose: Enhance navigation for anchor links (e.g., “Book Now” buttons).
+Logic:
+
+Captures clicks on internal page links (href="#section-id") and smoothly scrolls to the target section.
+
+Result:
+✅ Improves UX by reducing sudden page jumps.
+
+Overall Impact
+
+✔ Full user interaction control through JS (forms, cart, and payment).
+✔ Improved accessibility and mobile usability.
+✔ Enhanced professionalism via alerts, validation, and live updates.
 
 ### **Part 8 – Screenshots of different pages**
 
