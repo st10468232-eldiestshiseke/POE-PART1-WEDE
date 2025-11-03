@@ -1,7 +1,16 @@
 
 # **Tattoo Shop Website Changelog**
 
-According to the feedback received from the lecturer, I had to write a changelog explaining what I did, changed and everything that follows (Because I did not previously do any in the part 1 of the Poe).
+
+According to the feedback received from the lecturer, In the part 2 0f the POE, i did not implememnt the media query/breakpoints which i updated int this last part of the **POE** 
+here are some updates of what we added in this last part of the POE:
+
+**- We added Media query/breakpoint**
+**- We implemented Javascript**
+**- We updated the html code to include buttons and other stuffs**
+**- We uptated the css code for some pages and buttons to be more presentable**
+
+Here are the complete changelog including what we did starting from the begining up to now
 Here is the complete explanation of what I did in the Part 1 of the POE, and the Part 2.
 
 ## **PROJECT PART 1**
@@ -80,18 +89,39 @@ ________________________________________
 •	Used: active for button click feedback.
 •	Used: focus on form fields for better accessibility.
 ________________________________________
-**6. Media Queries / Breakpoints**
-•	Breakpoints applied for tablet (768px) and mobile **(480px and below).**
-•	Adjustments included:
-o	Background colour test **(body {background-colour: pink;})** during development to verify responsiveness.
-o	Navigation menu restructuring:
-	Navigation **(ul.nav)** stacks vertically on mobile **(flex-direction: column; align-items: stretch;)**.
-	Links are centre aligned with borders between items.
-o	Card typography scaling:
-	Titles reduced (h2 {font-size: 1rem;}).
-	Descriptions reduced **(p {font-size: 0.875rem;}).**
-o	Card button resizing:
-	Padding reduced and text scaled down **(padding: 0.5rem 0.625rem; font-size: 0.875rem;).**
+#### **6. Media Queries / Breakpoints**
+
+##### **💻 Tablet (≤1024px)*
+
+Reduced hero text size and image height.
+
+Adjusted grid layouts to fit two cards per row.
+
+##### **📱 Mobile (≤768px)*
+
+Navigation turns into a collapsible menu (.menu-toggle button toggles .show class).
+
+Adjusted form paddings and card text sizes.
+
+Ensured content stacks vertically.
+
+##### **📱 Small Mobile (≤480px)*
+
+Background changes to pink (for testing).
+
+Navigation items stack vertically.
+
+Reduced typography and button sizes for better readability.
+
+Responsive Adjustments
+
+Layout: All grid and flex layouts adapt fluidly to screen width.
+
+Typography: Scales down on smaller devices.
+
+Navigation Menu: Converts to vertical toggle menu on mobile.
+
+Images: Adjust width and height automatically within card containers.
 ________________________________________
 **7. Responsive Design Adjustments**
 •	Layout: grids collapse into single-column layout on smaller screens.
@@ -110,6 +140,27 @@ o	Service selection cards.
 o	Cart section with services and total cost.
 o	Final booking form for customer details.
 ________________________________________
+### **JavaScript Implementation (script.js)**
+Main Features
+
+Responsive Navigation Toggle:
+Toggles the .show class for the mobile menu.
+
+Cart System:
+
+“Book Now” buttons use data-name and data-price attributes.
+
+Adds selected services to cart with a remove option.
+
+Updates total price in real time.
+
+Form Validation:
+
+Contact and Booking forms now validate name, email, message/service/date fields.
+
+Red borders highlight missing fields.
+
+Alerts guide users to fill all required data.
 
 ### **Part 8 – Screenshots of different pages**
 
