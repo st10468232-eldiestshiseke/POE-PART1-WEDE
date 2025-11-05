@@ -110,6 +110,7 @@ nav a:hover {
   animation: fadeIn 2s ease-in;
   overflow: hidden;
   height: 50vh;
+  height: 10%;
 }
 .hero-video {
   position: absolute;
