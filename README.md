@@ -144,10 +144,38 @@ o	Service selection cards.
 o	Cart section with services and total cost.
 o	Final booking form for customer details.
 ________________________________________
-## **Project part 3**
-#### **JavaScript Implementation (script.js)**
-The JavaScript file adds interactivity, logic, and user validation throughout the entire site.
-It focuses on four main functionalities: navigation toggle, cart management, form validation, and payment flow.
+## **PROJECT PART3**
+### **JavaScript Implementation (script.js)**
+
+#### 2.1 Interactive Elements
+
+Implemented responsive navigation using JavaScript that toggles a mobile-friendly menu (.menu-toggle) to enhance accessibility on all devices.
+
+Created interactive booking and pricing cards, each with “Book Now” buttons dynamically linked to a cart system using DOM manipulation.
+
+Added hover and active animations through CSS transitions triggered by JavaScript events for smoother interactivity.
+
+Integrated form validation for both booking and contact pages, giving real-time feedback (alerts and red borders) when users leave fields empty.
+
+Developed a gallery/portfolio section where tattoo images are displayed in card format, setting the groundwork for a lightbox expansion for larger image views.
+
+Applied JavaScript event listeners to dynamically update cart items and pricing totals without reloading the page.
+
+##### 2.2 Dynamic Content
+
+Used JavaScript to dynamically load and update content — such as booking selections and service totals — into the cart section.
+
+Enabled dynamic price calculation when users add or remove services from the cart.
+
+Implemented a “Pay Now” confirmation system that simulates transaction handling and resets the cart upon successful payment.
+
+Built a DOM-based validation system for all form submissions to ensure proper user input before processing.
+
+Planned future integration of search and filter functionality for services and portfolio items (for scalability).
+
+---
+**The JavaScript file adds interactivity, logic, and user validation throughout the entire site.
+It focuses on four main functionalities: navigation toggle, cart management, form validation, and payment flow.*
 
 🔹 Navigation Menu Toggle (Responsive)
 
